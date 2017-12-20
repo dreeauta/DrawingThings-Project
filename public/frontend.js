@@ -39,6 +39,8 @@ $(document).ready(function() {
   //
   // });
 
+
+
   $("#submit_thickness").click(function(){
     radius = $("#text_thickness").val();
     console.log(radius);
