@@ -1,0 +1,68 @@
+body {
+  /*background-image: url("linen-bg.jpg");*/
+  background-image: url("blue-bg.jpg");
+
+}
+
+
+
+#canvas{
+  border: 5px solid gray;
+  background-color:white;
+  margin-left: 30px;
+}
+
+  #messages{
+
+    float: right;
+    width: 300px;
+    padding-top: 30px;
+    height: 80vh;
+    border: 5px solid gray;
+    margin-left: auto;
+    background-color: rgba(255,255,255,.7);
+    margin-right: 20px;
+  }
+
+  .boxes h2 {
+    display: inline;
+    margin-left: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-right: 180px;
+  }
+
+
+  .boxes {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  .boxes span{
+  }
+
+
+
+  #text_thickness {
+    padding: 10px 10px;
+  }
+
+  #submit_thickness {
+    margin-right: 40px;
+    padding: 10px 10px;
+
+  }
+
+  #submit_thickness:hover {
+    background-color: lightgray;
+  }
+
+  #eraser {
+    position: relative;
+    left: 3vw;
+    top:2vh;
+    transition: all .2s ease-in-out;
+  }
+
+  #eraser:hover {
+    transform: scale(1.1);
+  }

@@ -9,69 +9,29 @@
     <script src="/frontend.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
 
-    <style>
-
-
-    body {
-      background-color: lightyellow;
-    }
-
-    #canvas{
-      border: 5px solid gray;
-      background-color:white;
-
-    }
-      #messages{
-
-        float: right;
-        width: 300px;
-        height: 500px;
-        border: 5px solid gray;
-        margin-top: 75px;
-        margin-left: auto;
-        background-color: white;
-
-      }
-
-      .boxes {
-        float: right;
-        position: relative;
-        right: 25vw;
-        padding-right: 20px;
-        margin-bottom: 20px;
-      }
-
-      #submit_thickness {
-        margin-right: 40px;
-      }
-
-      #eraser {
-        position: relative;
-        left: 3vw;
-        top:2vh;
-      }
-
-
-
-
-    </style>
   </head>
 
   <body>
-        <ul id = "messages"></ul>
+
+      <ul id = "messages"></ul>
     <div class="boxes">
-      <input type="text" id="text_thickness" placeholder="Text Thickness: "/>
-      <button id="submit_thickness">Submit Text</button>
+      <h2> Drawing Things </h2>
+
+      <input type="text" id="text_thickness" placeholder="Paintbrush Size"/>
+      <button id="submit_thickness">Submit </button>
+
       <input type="color" id="custom" />
       <!-- <button id="submit_button">Submit Color</button> -->
-      <img id= "eraser" src="/eraser.png" alt="">
+      <img id= "eraser" src="eraser.png" alt="">
 
     </div>
 
 
-    <canvas id="canvas" width="800" height="500"></canvas>
+    <canvas id="canvas" width="800" height="450"></canvas>
 
 
 
