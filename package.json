@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
-    "nodemon": "^1.11.0",
+    "nodemon": "^1.19.3",
     "socket.io": "^1.7.3",
     "spectrum-colorpicker": "^1.8.0"
   }
