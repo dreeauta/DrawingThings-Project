@@ -10,26 +10,27 @@ body {
   border: 5px solid gray;
   background-color:white;
   margin-left: 30px;
+  width: 65%;
 }
 
   #messages{
 
     float: right;
-    width: 300px;
+    width: 20%;
     padding-top: 20px;
     height: 80vh;
     border: 5px solid gray;
-    margin-left: auto;
+    margin: 0 20px 0 auto;
     background-color: rgba(255,255,255,.7);
-    margin-right: 20px;
     overflow-y:scroll;
   }
 
+
+
   .boxes h2 {
     display: inline;
-    margin-left: 40px;
+    margin: 0 60px 0 40px;
     font-family: 'Gloria Hallelujah', cursive;
-    margin-right: 180px;
   }
 
 
